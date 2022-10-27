@@ -2,11 +2,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #container {
     display: flex;
-    width: 75%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
 }
@@ -23,14 +24,28 @@ body {
 
 
 #content-box {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 2%;
 }
-
+#h_img{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+;
+}
+#img-text{
+    font-size: 50px;
+    color: white;
+    /* top: 8px; */
+    position: absolute;
+}
 #what-we-do {
+    font-size: 20px;
     width: 100%;
     margin-top: 2%;
     text-align: center;
@@ -38,8 +53,28 @@ body {
 }
 
 .what-small{
-    display: flex;
+
+    /* display: flex;
+    flex-direction: column; */
+    width: 30%;
+    /* align-items: center; */
+}
+#contact_us{
     flex-direction: column;
-    width: 20%;
+    position: relative;
+    text-align: center;
     align-items: center;
+    justify-content: center
+}
+
+#contact-text{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+}
+#contact-form{
+    position: absolute;
+}
+#social_icons{
+    margin-top: 2%;
 }
