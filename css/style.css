@@ -4,7 +4,6 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
 #container {
     display: flex;
     width: 100%;
@@ -60,21 +59,27 @@ body {
     /* align-items: center; */
 }
 #contact_us{
-    flex-direction: column;
-    position: relative;
-    text-align: center;
+    background-image: url(../images/backgrounds/c_image.jpg);
+    height:max-content:
     align-items: center;
-    justify-content: center
+    text-align: center;
+  color: white;
 }
 
-#contact-text{
-    font-size: 40px;
-    color: white;
-    position: absolute;
-}
-#contact-form{
-    position: absolute;
-}
 #social_icons{
     margin-top: 2%;
 }
+.input{
+    border-color: white;
+    background-color:transparent;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+  input{
+    width: 33%;
+  }
