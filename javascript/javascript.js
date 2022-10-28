@@ -36,29 +36,6 @@
 //       $("#product_pic").toggle(1200);
 //       $("#product_pic").show(1200);
 //     });
-//     $('#porfolio-pic').hover(function () {
-//         $(this)
-//              .css({display: 'flex', cursor: 'pointer', position: 'relative', 
-//             opacity : '0.5', flex-direction: 'pointer' });
-//  $('#work-one')
-//             .hide()
-//             .text('This is a hover effect')
-//             .css({position: 'absolute', color: 'yellow'
-//         });
-        
-//     });
-
-//   });
-
-//   $(document).ready(function(){
-//     $("#porfolio-pic").hover(function(){
-//         $("#work-one").show()
-//         .css({"color": "white"});
-     
-//       });
-
-//       }
-//   )
 
 $(document).ready(function(){
 
@@ -141,4 +118,10 @@ $(document).ready(function(){
             $("#work-8").hide()
         }
     )
+
+$("#contact-form").submit(
+    function(){
+        alert("Your message was received and we will respond in no time. Peace!");
+    }
+)
 })
