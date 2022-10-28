@@ -28,6 +28,7 @@ body {
     color: white;
     min-height: 20vh;
     background-repeat: no-repeat;
+    font-size: 20px;
 }
 
 
@@ -131,8 +132,25 @@ margin-top: 1%;
     cursor: pointer;
    
      }
-     .porfolio-pic:hover{
+     .porfolio-pic1:hover, .porfolio-pic2:hover, .porfolio-pic3:hover, .porfolio-pic4:hover, .porfolio-pic5:hover, .porfolio-pic6:hover, .porfolio-pic7:hover, .porfolio-pic8:hover{
         cursor: pointer;
-        opacity: 0.5;
+        opacity: 0.8;
+    
+     }
 
+     .porfolio-pic1, .porfolio-pic2, .porfolio-pic3, .porfolio-pic4, .porfolio-pic5, .porfolio-pic6, .porfolio-pic7, .porfolio-pic8{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+     }
+
+     #work-one, #work-2, #work-3, #work-4, #work-5, #work-6, #work-7, #work-8{
+    
+        background-color: white;
+      position: absolute;
+        color: black;
+        display: none;
+        font-weight: bold;
+    
      }
