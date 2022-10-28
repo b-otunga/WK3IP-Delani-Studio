@@ -81,4 +81,64 @@ $(document).ready(function(){
             $("#work-2").hide()
         }
     )
+
+    $(".porfolio-pic3").hover(
+        function(){
+            $("#work-3").show()
+            .css({color: "black", opacity: "1"})
+        },
+        function(){
+            $("#work-3").hide()
+        }
+    )
+
+    $(".porfolio-pic4").hover(
+        function(){
+            $("#work-4").show()
+            .css({color: "black", opacity: "1"})
+        },
+        function(){
+            $("#work-4").hide()
+        }
+    )
+
+    $(".porfolio-pic5").hover(
+        function(){
+            $("#work-5").show()
+            .css({color: "black", opacity: "1"})
+        },
+        function(){
+            $("#work-5").hide()
+        }
+    )
+
+    $(".porfolio-pic6").hover(
+        function(){
+            $("#work-6").show()
+            .css({color: "black", opacity: "1"})
+        },
+        function(){
+            $("#work-6").hide()
+        }
+    )
+
+    $(".porfolio-pic7").hover(
+        function(){
+            $("#work-7").show()
+            .css({color: "black", opacity: "1"})
+        },
+        function(){
+            $("#work-7").hide()
+        }
+    )
+
+    $(".porfolio-pic8").hover(
+        function(){
+            $("#work-8").show()
+            .css({color: "black", opacity: "1"})
+        },
+        function(){
+            $("#work-8").hide()
+        }
+    )
 })

@@ -1,17 +1,18 @@
-body {
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-#container {
+
+#container{
     display: flex;
     width: 95%;
     flex-direction: column;
     align-items: center;
 }
 
-#about-us {
+#about-us{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -31,8 +32,7 @@ body {
     font-size: 20px;
 }
 
-
-#content-box {
+#content-box{
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -41,116 +41,137 @@ body {
 }
 
 #portfolio{
-width: 80%;
+    width: 80%;
 }
+
 #welcome{
     background-size: cover cover;
     display: flex;
     flex-direction: column;
     background: url(../images/backgrounds/h_img.jpg);
     width: 100%;
-    height:80vh;
+    height: 80vh;
     background-repeat: no-repeat;
-background-size: cover;
-color: white;
-font-size: 35px;
-align-items: center;
-justify-content: center;
-text-align: center;
-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
 }
+
 #img-text{
     font-size: 50px;
     color: white;
     /* top: 8px; */
     position: absolute;
 }
-#what-we-do {
+
+#what-we-do{
     font-size: 20px;
     width: 100%;
     margin-top: 2%;
     text-align: center;
-
 }
 
 .what-small{
-
     /* display: flex;
     flex-direction: column; */
     width: 30%;
     /* align-items: center; */
 }
+
 #contact_us{
     background-image: url(../images/backgrounds/c_image.jpg);
-    height:max-content;
+    height: max-content;
     align-items: center;
     text-align: center;
-  color: white;
-  margin-top: 2%;
-  width: 100%;
+    color: white;
+    margin-top: 2%;
+    width: 100%;
 }
 
 #social_icons{
     margin-top: 2%;
 }
+
 .input{
     border-color: white;
-    background-color:transparent;
-
+    background-color: transparent;
 }
 
-::placeholder {
+::placeholder{
     color: white;
     opacity: 1;
-  }
+}
 
-  input{
+input{
     width: 33%;
-  }
-  h4{
-margin-top: 1%;
-  }
+}
 
-  textarea{
+h4{
+    margin-top: 1%;
+}
+
+textarea{
     width: 70%;
     margin-top: 1.5%;
-  }
+}
 
-  #submit{
+#submit{
     margin-bottom: 1%;
-  }
-  #design-text {
+}
+
+#design-text{
     display: none;
-  }
+}
 
- #design:hover{
- cursor: pointer;
-
-  }
-
-  #design-text:hover{
+#design:hover{
     cursor: pointer;
-   
-     }
-     .porfolio-pic1:hover, .porfolio-pic2:hover, .porfolio-pic3:hover, .porfolio-pic4:hover, .porfolio-pic5:hover, .porfolio-pic6:hover, .porfolio-pic7:hover, .porfolio-pic8:hover{
-        cursor: pointer;
-        opacity: 0.8;
-    
-     }
+}
 
-     .porfolio-pic1, .porfolio-pic2, .porfolio-pic3, .porfolio-pic4, .porfolio-pic5, .porfolio-pic6, .porfolio-pic7, .porfolio-pic8{
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-     }
+#design-text:hover{
+    cursor: pointer;
+}
 
-     #work-one, #work-2, #work-3, #work-4, #work-5, #work-6, #work-7, #work-8{
-    
-        background-color: white;
-      position: absolute;
-        color: black;
-        display: none;
-        font-weight: bold;
-    
-     }
+.porfolio-pic1:hover,
+.porfolio-pic2:hover,
+.porfolio-pic3:hover,
+.porfolio-pic4:hover,
+.porfolio-pic5:hover,
+.porfolio-pic6:hover,
+.porfolio-pic7:hover,
+.porfolio-pic8:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.porfolio-pic1,
+.porfolio-pic2,
+.porfolio-pic3,
+.porfolio-pic4,
+.porfolio-pic5,
+.porfolio-pic6,
+.porfolio-pic7,
+.porfolio-pic8{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#work-one,
+#work-2,
+#work-3,
+#work-4,
+#work-5,
+#work-6,
+#work-7,
+#work-8{
+    background-color: white;
+    position: absolute;
+    color: black;
+    display: none;
+    font-weight: bold;
+}
