@@ -118,3 +118,21 @@ margin-top: 1%;
   #submit{
     margin-bottom: 1%;
   }
+  #design-text {
+    display: none;
+  }
+
+ #design:hover{
+ cursor: pointer;
+
+  }
+
+  #design-text:hover{
+    cursor: pointer;
+   
+     }
+     .porfolio-pic:hover{
+        cursor: pointer;
+        opacity: 0.5;
+
+     }
