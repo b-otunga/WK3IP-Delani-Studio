@@ -129,8 +129,7 @@ $(document).ready(function () {
     $(".porfolio-pic8").hover(
         function () {
             $(this).css({cursor: "pointer"})
-            $("#work-8").show()
-            .css({ color: "white", "font-size": "122%"})
+            $("#work-8").show().css({ color: "white", "font-size": "122%"})
             if($(window).width() < 822) {
                 $("#work-8").css({ color: "white", "font-size": "45%", width: "63%", "border-width": "2px"})}
         },

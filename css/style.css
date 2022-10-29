@@ -96,14 +96,6 @@ body{
     background-repeat: no-repeat;
 }
 
-#social_icons{
-    display: flex;
-    min-width: 100%;
-    margin-top: 2%;
-    align-items: center;
-    justify-content: center;
-}
-
 .input{
     border-color: white;
     background-color: transparent;
@@ -146,9 +138,14 @@ textarea{
     cursor: pointer;
 }
 
-social_icons{
-    width: 90%;
+#social_icons{
     display: flex;
+    display: flex;
+    min-width: 60%;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
 }
 
 .porfolio-pic1,
