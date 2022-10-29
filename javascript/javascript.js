@@ -106,7 +106,7 @@ $(document).ready(function () {
             $("#work-6").show()
             .css({ color: "white", "font-size": "122%"})
             if($(window).width() < 822) {
-                $("#work-6").css({ color: "white", "font-size": "50%", width: "63%", "border-width": "2px"})}
+                $("#work-6").css({ color: "white", "font-size": "45%", width: "63%", "border-width": "2px"})}
         },
         function () {
             $("#work-6").hide()
@@ -132,7 +132,7 @@ $(document).ready(function () {
             $("#work-8").show()
             .css({ color: "white", "font-size": "122%"})
             if($(window).width() < 822) {
-                $("#work-8").css({ color: "white", "font-size": "50%", width: "63%", "border-width": "2px"})}
+                $("#work-8").css({ color: "white", "font-size": "45%", width: "63%", "border-width": "2px"})}
         },
         function () {
             $("#work-8").hide()
