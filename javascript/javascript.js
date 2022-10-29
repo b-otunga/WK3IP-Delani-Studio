@@ -37,91 +37,124 @@
 //       $("#product_pic").show(1200);
 //     });
 
-$(document).ready(function(){
+$(document).ready(function () {
+
+    $("#design-pic").click(function () {
+        $(this).hide();
+        $("#design-text").toggle()
+        .show();
+    })
+
+    $("#design-text").click(function () {
+        $(this).hide();
+        $("#design-pic").toggle().show();
+    })
+
+    $("#dev-pic").click(function () {
+        $(this).hide();
+        $("#dev-text").toggle().show();
+    })
+
+    $("#dev-text").click(function () {
+        $(this).hide();
+        $("#dev-pic").toggle().show();
+        
+    })
+
+    $("#prod-pic").click(function () {
+        $(this).hide();
+        $("#prod-text").toggle().show();
+    })
+
+    $("#prod-text").click(function () {
+        $(this).hide();
+        $("#prod-pic").toggle().show();
+        
+    })
 
     $(".porfolio-pic1").hover(
-        function(){
+        function () {
             $("#work-one").show()
-            .css({color: "black", opacity: "1"})
+                .css({ color: "black", opacity: "1" })
         },
-        function(){
+        function () {
             $("#work-one").hide()
         }
     )
 
     $(".porfolio-pic2").hover(
-        function(){
+        function () {
             $("#work-2").show()
-            .css({color: "black", opacity: "1"})
+                .css({ color: "black", opacity: "1" })
         },
-        function(){
+        function () {
             $("#work-2").hide()
         }
     )
 
     $(".porfolio-pic3").hover(
-        function(){
+        function () {
             $("#work-3").show()
-            .css({color: "black", opacity: "1"})
+                .css({ color: "black", opacity: "1" })
         },
-        function(){
+        function () {
             $("#work-3").hide()
         }
     )
 
     $(".porfolio-pic4").hover(
-        function(){
+        function () {
             $("#work-4").show()
-            .css({color: "black", opacity: "1"})
+                .css({ color: "black", opacity: "1" })
         },
-        function(){
+        function () {
             $("#work-4").hide()
         }
     )
 
     $(".porfolio-pic5").hover(
-        function(){
+        function () {
             $("#work-5").show()
-            .css({color: "black", opacity: "1"})
+                .css({ color: "black", opacity: "1" })
         },
-        function(){
+        function () {
             $("#work-5").hide()
         }
     )
 
     $(".porfolio-pic6").hover(
-        function(){
+        function () {
             $("#work-6").show()
-            .css({color: "black", opacity: "1"})
+                .css({ color: "black", opacity: "1" })
         },
-        function(){
+        function () {
             $("#work-6").hide()
         }
     )
 
     $(".porfolio-pic7").hover(
-        function(){
+        function () {
             $("#work-7").show()
-            .css({color: "black", opacity: "1"})
+                .css({ color: "black", opacity: "1" })
         },
-        function(){
+        function () {
             $("#work-7").hide()
         }
     )
 
     $(".porfolio-pic8").hover(
-        function(){
+        function () {
             $("#work-8").show()
-            .css({color: "black", opacity: "1"})
+                .css({ color: "black", opacity: "1" })
         },
-        function(){
+        function () {
             $("#work-8").hide()
         }
     )
 
-$("#contact-form").submit(
-    function(){
-        alert("Your message was received and we will respond in no time. Peace!");
-    }
-)
+    $("#contact-form").submit(
+        function () {
+            alert("Your message was received and we will respond in no time. Peace!");
+        }
+    )
 })
