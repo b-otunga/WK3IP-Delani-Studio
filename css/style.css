@@ -64,7 +64,6 @@ body{
     margin-top: 2%;
 }
 
-
 #img-text{
     font-size: 50px;
     color: white;
@@ -139,8 +138,7 @@ textarea{
 
 #social_icons{
     display: flex;
-    display: flex;
-    min-width: 60%;
+    width: 60%;
     margin-top: 2%;
     align-items: center;
     justify-content: center;
@@ -176,7 +174,6 @@ textarea{
     background: rgba(0, 0, 0, 0.6);
     border: solid white;
     border-width: 4px;
-
 }
 
 #amazing{
